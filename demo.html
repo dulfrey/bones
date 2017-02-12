@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Learn Bones</title>
+    <title>Bones</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,17 +26,28 @@
 
     <!-- Theme CSS -->
     <link href="css/new-age.min.css" rel="stylesheet">
-
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script src="b4w.min.js"></script>
+<script>
+function hello() {
+    var m_main = b4w.require("main");
+    var m_data = b4w.require("data");
 
+    var canvas_elem = document.getElementById("canvas_id");
+    m_main.init(canvas_elem);
+    m_data.load("CRANEO.json");
+}
+</script>
+</head>
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="hello()">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -45,23 +56,23 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html#page-top">Learn Bones</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="img/logoBONESBlanco.png" style="height:200%;margin-top:-10px"></img></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="index.html#download">Download</a>
+                        <a class="page-scroll" href="index.html#download">Perfil</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#features">Features</a>
+                        <a class="page-scroll" href="index.html#features">Cráneo</a>
                     </li>
 					<li>
-                        <a class="page-scroll" href="#demo">Demo</a>
+                        <a class="page-scroll" href="#demo">Cadera</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Mano</a>
                     </li>
                 </ul>
             </div>
@@ -69,21 +80,14 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="header-content">
-                        <iframe style="margin-top:50px" allowfullscreen src="esqueleto.html" width="100%" height="500"></iframe>
-                    </div>
-					
-                </div>
-               
-            </div>
-        </div>
-    </header>
-
+<iframe style="margin-top:50px" allowfullscreen src="craneo.html" width="100%" height="60%"></iframe>
+   
+<section id="content" class="content">
+	<div class="row">
+	<h1>Cráneo
+	</h1>
+	</div>
+</section>
     
 
     <section id="contact" class="contact bg-primary">

@@ -1,27 +1,26 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/)
+# [BONES UN](https://github.com/dulfrey/bones)
 
-[New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+[BONES UN](https://github.com/dulfrey/bones) es un prototipo diseñado para la enseñanza de los huesos del cuerpo humano como proyecto para el curso INTRODUCCIÓN A LA INNOVACIÓN Y AL USO DE TECNOLOGÍAS PARA EL APRENDIZAJE de la ESCUELA INTERNACIONAL de la [Universidad Nacional de colombia](http://unal.edu.co).
 
-## Getting Started
+## Implementación
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-new-age.git`
-* Fork the repo
+Para la creación de este prototipo se utilizó:
 
-## Bugs and Issues
+* [Blender](https://www.blender.org/) para el modelado en 3D
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-new-age/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/).
+* Librería para el uso embebido de modelos 3D [Blender4web](https://www.blend4web.com/en/)
 
-## Creator
+* Plantilla [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/) 
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Creador
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+BONES UN fue creado por **[Dulfrey Hernández](https://github.com/dulfrey)**.
+
+* https://twitter.com/dulfrey
+* https://github.com/dulfrey
+
 
 ## Copyright and License
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-new-age/blob/gh-pages/LICENSE) license.
+Copyright 2017 Dulfrey Hernández. Código libredo bajo [MIT](https://github.com/dulfrey/bones/blob/master/LICENSE) license.
