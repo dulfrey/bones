@@ -1,6 +1,6 @@
-# [BONES UN](https://github.com/dulfrey/bones)
+# [BONES UN](https://dulfrey.github.io/bones/)
 
-[BONES UN](https://github.com/dulfrey/bones) es un prototipo diseñado para la enseñanza de los huesos del cuerpo humano como proyecto para el curso INTRODUCCIÓN A LA INNOVACIÓN Y AL USO DE TECNOLOGÍAS PARA EL APRENDIZAJE de la ESCUELA INTERNACIONAL de la [Universidad Nacional de colombia](http://unal.edu.co).
+[BONES UN](https://dulfrey.github.io/bones/) es un prototipo diseñado para la enseñanza de los huesos del cuerpo humano como proyecto para el curso INTRODUCCIÓN A LA INNOVACIÓN Y AL USO DE TECNOLOGÍAS PARA EL APRENDIZAJE de la ESCUELA INTERNACIONAL de la [Universidad Nacional de colombia](http://unal.edu.co).
 
 ## Implementación
 
@@ -12,6 +12,7 @@ Para la creación de este prototipo se utilizó:
 
 * Plantilla [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/) 
 
+## [Online Demo](https://dulfrey.github.io/bones/home/index.html)
 
 ## Creador
 
